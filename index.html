@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Image</title>
+  <style>
+    /* Make the whole page black and use flexbox to center content */
+    body {
+      margin: 0;
+      height: 100vh;           /* full viewport height */
+      display: flex;           /* enable flexbox */
+      justify-content: center; /* horizontal center */
+      align-items: center;     /* vertical center */
+      background-color: black; /* black background */
+    }
+
+    /* Optional: scale image to fit nicely */
+    img {
+      max-width: 90%;          /* don't exceed 90% of viewport width */
+      max-height: 90%;         /* don't exceed 90% of viewport height */
+      object-fit: contain;     /* maintain aspect ratio */
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace "your-image.jpg" with your image file -->
+  <img src="keep-dancing.png" alt="Centered Image">
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"3a316ea4d09d474bbc464d204bc9df35","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
